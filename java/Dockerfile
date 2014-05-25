@@ -13,3 +13,5 @@ RUN apt-get update
 RUN apt-get install -y oracle-java8-installer
 
 RUN apt-get install wget tar gzip
+
+CMD ["/usr/bin/supervisord"]
