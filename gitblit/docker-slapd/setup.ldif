@@ -1,0 +1,23 @@
+dn: ou=People,dc=salvesdevelopment,dc=nl
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=salvesdevelopment,dc=nl
+objectClass: organizationalUnit
+ou: Groups
+
+dn: uid=ron,ou=People,dc=salvesdevelopment,dc=nl
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: ron
+sn: Smits
+givenName: Ron
+cn: Ron Smits
+displayName: Ron Smits
+uidNumber: 10000
+gidNumber: 5000
+userPassword: johnldap
+gecos: Ron Smits
+loginShell: /bin/bash
+homeDirectory: /home/john
